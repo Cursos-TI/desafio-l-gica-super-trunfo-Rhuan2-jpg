@@ -74,6 +74,6 @@
       while ((temp_char = getchar()) != '\n' && temp_char != EOF);
         //Informações da segunda carta juntas
        printf("as informações da sua carta são estas respectivamente: %c, %s, %s, %d, %.2f km², %.2f, %d\n", Estado, codigoDaCarta, nomeDaCidade, populacao, Area, Pib, pontosTuristicos);
-    
+     
     
     }
