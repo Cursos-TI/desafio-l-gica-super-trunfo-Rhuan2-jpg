@@ -36,6 +36,8 @@
       printf("Informe o Número de Pontos Turísticos: ");
       scanf("%d", &PontosTuristicos);
       while ((temp_char = getchar()) != '\n' && temp_char != EOF);
+        
+       
         //Informações da primeira carta juntas
        printf("as informações da sua carta são estas respectivamente: %c, %s, %s, %d, %.2f km², %.2f, %d\n", estado, CodigoDaCarta, NomeDaCidade, Populacao, area, pib, PontosTuristicos);
         //Dados e váriaveis para segunda carta
